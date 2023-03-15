@@ -1,32 +1,5 @@
 
-.portafolio{
-    width: 32%;
-    position: absolute;
-    top: 210%;
-    left: 5%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
 
-.portafolio h1{
-    
-    font-size: 50px;
-    color: #06e9a5;
-    padding: 5%;
-
-}
-
-.portafolio p{
-
-    padding: 5%;
-    font-size: 23px;
-    color: var(--azul-letras);
-}
-
-.portafolio span{
-  color: yellow;
-}
 
 
 
@@ -165,8 +138,53 @@ header nav a:hover{
 
 .inicio .cv p{
     color: #06e9a5;
+    width: 22%;
+    height: 2.3rem;
+    background-color: var(--morado-oscuro);
+    border-radius: 12px;
+    padding: 0 2% 2% 2%;
 }
 
+.inicio .cv p:hover {
+  animation: shake3856 0.3s linear infinite both;
+  box-shadow: 0 0 5px #9b43ff,
+  0 0 25px #9b43ff,
+  0 0 50px #9b43ff,
+  0 0 100px #9b43ff;
+ }
+ 
+ @keyframes shake3856 {
+  0% {
+   -webkit-transform: translate(0);
+   transform: translate(0);
+  }
+ 
+  20% {
+   -webkit-transform: translate(-2px, 2px);
+   transform: translate(-2px, 2px);
+  }
+ 
+  40% {
+   -webkit-transform: translate(-2px, -2px);
+   transform: translate(-2px, -2px);
+  }
+ 
+  60% {
+   -webkit-transform: translate(2px, 2px);
+   transform: translate(2px, 2px);
+  }
+ 
+  80% {
+   -webkit-transform: translate(2px, -2px);
+   transform: translate(2px, -2px);
+  }
+ 
+  100% {
+   -webkit-transform: translate(0);
+   transform: translate(0);
+  }
+ }
+ 
 .contacto {
     margin-top: 5vh;
     position: absolute;
@@ -242,7 +260,36 @@ header nav a:hover{
 
                    /*  PROYECTS AND SKILLS */
 
+                   .portafolio{
+                    width: 32%;
+                    position: absolute;
+                    top: 210%;
+                    left: 5%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                }
+                
+                .portafolio h1{
+                    
+                    font-size: 50px;
+                    color: #06e9a5;
+                    padding: 5%;
+                
+                }
+                
+                .portafolio p{
+                
+                    padding: 5%;
+                    font-size: 23px;
+                    color: var(--azul-letras);
+                }
+                
+                .portafolio span{
+                  color: yellow;
+                }
 
+                
 
 .proyects-and-skills{
     width: 57%;
@@ -483,7 +530,8 @@ img{
   border-radius: 50%;
   cursor: pointer;
   transition: .6s;
-  padding-left: 5px;
+  
+  padding-right: 5px;
   padding-top: 3px;
 }
 
@@ -501,7 +549,7 @@ img{
   border-radius: 50%;
   cursor: pointer;
   transition: .6s;
-  padding-right: 5px;
+  padding-left: 5px;
   padding-top: 3px;
   }
    .btn-2:hover{
@@ -749,101 +797,6 @@ form{
 
 
 
-  .main {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5em;
-  }
-  
-  .up {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5em;
-  }
-  
-  .down {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5em;
-  }
-  
-  .card1 {
-    width: 70px;
-    height: 70px;
-    outline: none;
-    border: none;
-    background: rgb(192, 0, 0);
-    border-radius: 90px 5px 5px 5px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    transition: .2s ease-in-out;
-  }
-  
-  .instagram {
-    margin-top: 1.5em;
-    margin-left: 1.2em;
-    fill: #cc39a4;
-  }
-  
-  .card2 {
-    width: 70px;
-    height: 70px;
-    outline: none;
-    border: none;
-    background: white;
-    border-radius: 5px 90px 5px 5px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    transition: .2s ease-in-out;
-  }
-  
-  .twitter {
-    margin-top: 1.5em;
-    margin-left: -.9em;
-    fill: #03A9F4;
-  }
-  
-  .card3 {
-    width: 70px;
-    height: 70px;
-    outline: none;
-    border: none;
-    background: white;
-    border-radius: 5px 5px 5px 90px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    transition: .2s ease-in-out;
-  }
-  
-  .github {
-    margin-top: -.6em;
-    margin-left: 1.2em;
-    fill: #03A9F4;
-  }
-  
-  .card4 {
-    width: 70px;
-    height: 70px;
-    outline: none;
-    border: none;
-    background: white;
-    border-radius: 5px 5px 90px 5px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    transition: .2s ease-in-out;
-  }
-  
-  .discord {
-    margin-top: -.9em;
-    margin-left: -1.2em;
-    fill: #8c9eff;
-  }
-  
-  .card1:hover {
-    cursor: pointer;
-    scale: 1.1;
-    background-color: #cc39a4;
-  }
-  
-  .card1:hover .instagram {
-    fill: white;
-  }
   
   .card2:hover {
     cursor: pointer;
