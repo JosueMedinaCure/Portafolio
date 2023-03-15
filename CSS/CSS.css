@@ -477,27 +477,32 @@ img{
 
 .btn-1{
   background-color: var(--jade-claro);
-   width: 4%;
-   height: 2rem;
-   margin-left: 2%;
-   border-radius: 50%;
-   cursor: pointer;
-   transition: .6s;
-   
+  width: 4%;
+  height: 2rem;
+  margin-left: 2%;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: .6s;
+  padding-left: 5px;
+  padding-top: 3px;
 }
+
+
 
 .btn-1:hover{
     background-color: yellow;
     transition: .4s;
 }
 .btn-2{
-    background-color: var(--jade-claro);
-     width: 4%;
-     height: 2rem;
-     margin-left: 2%;
-     border-radius: 50%;
-     cursor: pointer;
-     transition: .4s;
+  background-color: var(--jade-claro);
+  width: 4%;
+  height: 2rem;
+  margin-left: 2%;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: .6s;
+  padding-right: 5px;
+  padding-top: 3px;
   }
    .btn-2:hover{
     background-color: yellow;
